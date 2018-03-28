@@ -1,0 +1,6 @@
+node index.js mode n input [output]
+
+mode: v or h, v - split image vertically, h - split image horizontally
+n: floating point number [0..1], e.g. n = 0.5 and mode = v, will split image in half
+input: original file name
+output: result file name
